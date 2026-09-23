@@ -74,6 +74,17 @@ reproduce wrong behavior. Selected successful retries do not establish overall s
 rate. Update the project log with concrete new task-development findings and limits.
 
 
+## Design review preference for this project
+
+The user requests an interactive simulation view whenever an asset design is
+finished. After relevant validation, launch the completed design in the local
+MuJoCo/robosuite viewer with a useful free camera, and provide a reproducible launch
+command. Static inspection and recorded diagnostic playback must be labeled;
+neither is a full robot demonstration. Retain the browser preview alongside it.
+If desktop access is unavailable, report the launch failure and provide the command
+and browser fallback rather than claiming the window opened. This preference applies
+to this user's project; do not assume other installations want GUI windows launched.
+
 ## Maintaining this project's GitHub mirror
 
 The user requested a skill-only repository named `robodataSim` and synchronization
